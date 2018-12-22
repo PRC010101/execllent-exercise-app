@@ -1,0 +1,12 @@
+<view class="container">
+<text decode="{{true}}">&nbsp;</text>
+<text decode="{{true}}">&nbsp;</text>
+<text decode="{{true}}">&nbsp;</text>
+<text decode="{{true}}">&nbsp;</text>
+<text>你的步数情况:</text></view>
+<canvas class = "canvas" id="chart1"
+canvas-id="humidity"></canvas>
+<view class="container">
+<text decode="{{true}}">&nbsp;</text>
+<text>你当前的步数是：</text>
+<text>{{data}}步</text></view>

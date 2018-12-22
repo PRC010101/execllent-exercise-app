@@ -1,0 +1,34 @@
+
+<view class="container">
+<image class="img" src="../../pages/start/wxDrawS.png" style="width:100px; height:100px;"/>
+ <text decode="{{true}}">&nbsp;  </text>
+ <text decode="{{true}}">&nbsp;  </text>
+  <text decode="{{true}}">&nbsp;  </text>
+  <text decode="{{true}}">&nbsp;  </text>
+<button class="btn1" bindtap="getDataFromOneNet">你的运动情况</button>
+<text decode="{{true}}">&nbsp;  </text>
+  <text decode="{{true}}">&nbsp;  </text>
+  <text decode="{{true}}">&nbsp;  </text>
+  <text decode="{{true}}">&nbsp;  </text>
+  <text decode="{{true}}">&nbsp;  </text>
+  <text decode="{{true}}">&nbsp;  </text>
+   <text class="userinfo-nickname">主制作人：董泽新</text>
+     <text class="userinfo-nickname">其他制作人：焦洋</text>
+   <text>你当前的位置是：</text>
+  <map longitude="{{longitude}}" latitude="{{latitude}}" markers="{{markers}}" covers="{{covers}}" show-location scale="18"  markers="{{markers}}" polyline="{{poliline}}">   
+<cover-view>    经度：{{longitude}}   </cover-view>   
+<cover-view>    纬度：{{latitude}}    </cover-view>    
+<cover-view>    精度：{{accuracy}}    </cover-view> 
+ </map>
+ <text decode="{{true}}">&nbsp;  </text>
+ <text decode="{{true}}">点击开始运动绘制运动路径 </text>
+<button bindtap="jie1" class="btn3">开始跑步</button>
+ <text decode="{{true}}">&nbsp;  </text>
+
+  <text decode="{{true}}">&nbsp;  </text>
+  <text decode="{{true}}">&nbsp;  </text>
+ <button bindtap="jie" class="btn1">关于我们</button>
+
+   </view>
+
+

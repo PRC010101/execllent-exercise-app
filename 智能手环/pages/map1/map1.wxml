@@ -1,0 +1,7 @@
+<map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="18" polyline="{{polyline}}"show-location style="width: 100%; height: 300px;"></map>
+<button bindtap="start"type='primary' style='margin-bottom:40px;'>开始</button>
+<button bindtap="end">结束</button>
+<view>运动开始时间：{{time}}</view>
+<view>运动结束时间：{{time1}}</view>
+
+
