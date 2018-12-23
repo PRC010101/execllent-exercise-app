@@ -9,4 +9,4 @@ canvas-id="humidity"></canvas>
 <view class="container">
 <text decode="{{true}}">&nbsp;</text>
 <text>你当前的步数是：</text>
-<text>{{data}}步</text></view>
+<text>{{categories[12]}}步</text></view>
